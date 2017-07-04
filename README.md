@@ -29,7 +29,7 @@
 - 2012-03-07 发布的 iOS 5.1
 - ...
 
-这已经是一个有着 6 年历史的 API 了。如果在 GitHub 搜索一下，可以周到 38,305 个搜索结果。
+这已经是一个有着 6 年历史的 API 了。如果在 GitHub 搜索一下，可以搜索到 38,305 个搜索结果。
 
 ![scrollIntoViewIfNeeded search on github](./scrollIntoViewIfNeeded-search-on-github.png)
 
