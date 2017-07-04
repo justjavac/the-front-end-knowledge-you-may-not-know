@@ -1,6 +1,6 @@
 # 你可能不知道的前端知识点
 
-发掘被我们忽略的前端知识点。所有的讨论以 [issues](https://github.com/justjavac/the-front-end-knowledge-you-may-dont-know/issues) 的形式进行，任何人都可以参与讨论。
+发掘被我们忽略的前端知识点。所有的讨论以 [issues](https://github.com/justjavac/the-front-end-knowledge-you-may-dont-know/issues) 的形式进行，不定期在 [小密圈](http://t.xiaomiquan.com/EAQvV7Y) 发起话题，任何人都可以在 issues 区围观讨论。
 
 - 须知 [#1](https://github.com/justjavac/the-front-end-knowledge-you-may-dont-know/issues/1)
 - 索引 [#2](https://github.com/justjavac/the-front-end-knowledge-you-may-dont-know/issues/2)
