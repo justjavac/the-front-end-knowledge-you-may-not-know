@@ -17,7 +17,7 @@
 
 对于前端 API 来说，我们最关心的是它的浏览器兼容性：
 
-![scrollIntoViewIfNeeded](./element-scrollIntoViewIfNeeded-can-i-use.png)
+![scrollIntoViewIfNeeded](./assets/element-scrollIntoViewIfNeeded-can-i-use.png)
 
 随后他又问我：
 
@@ -33,7 +33,7 @@
 
 这已经是一个有着 6 年历史的 API 了。如果在 GitHub 搜索一下，可以搜索到 38,305 个搜索结果。
 
-![scrollIntoViewIfNeeded search on github](./scrollIntoViewIfNeeded-search-on-github.png)
+![scrollIntoViewIfNeeded search on github](./assets/scrollIntoViewIfNeeded-search-on-github.png)
 
 这已经是一个被广泛使用的 API 了。
 
