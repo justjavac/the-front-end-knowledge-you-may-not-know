@@ -2,7 +2,7 @@
 
 发掘被我们忽略的前端知识点。所有的讨论以 [issues](https://github.com/justjavac/the-front-end-knowledge-you-may-dont-know/issues) 的形式进行，任何人都可以在 issues 区围观讨论。
 
-本 repo 的目的在于搜集、讨论，最终的内容会整理成文章、PPT、PDF 发布在 [知识星球](http://t.xiaomiquan.com/EAQvV7Y)。
+本 repo 的目的在于搜集、讨论，最终的内容会整理成文章、PPT、PDF。
 
 - 须知 [#1](https://github.com/justjavac/the-front-end-knowledge-you-may-dont-know/issues/1)
 - 索引 [#2](https://github.com/justjavac/the-front-end-knowledge-you-may-dont-know/issues/2)
