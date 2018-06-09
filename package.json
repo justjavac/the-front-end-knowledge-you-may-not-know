@@ -1,6 +1,6 @@
 {
   "name": "the-front-end-knowledge-you-may-dont-know",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "发掘被我们忽略的前端知识点。所有的讨论以 [issues](https://github.com/justjavac/the-front-end-knowledge-you-may-dont-know/issues) 的形式进行，任何人都可以在 issues 区围观讨论。",
   "main": "index.js",
   "scripts": {
