@@ -9,7 +9,7 @@ HTML attribute | DOM property
 值永远是字符串或 `null` | 值可以是任意合法 js 类型
 大小写不敏感 | 大小写敏感
 不存在时返回 `null` | 不存在时返回 `undefined`
-对于 `href`, 返回 html 设置的值 | 对于 `href` 返回解析后的完整 uri
+对于 `href`, 返回 html 设置的值 | 对于 `href` 返回解析后的完整 url
 更新 `value`, 属性也更新 | 更新 `value`, 特性不更新
 
 ## 概述
@@ -73,7 +73,7 @@ el.foo === undefined
 
 好在 DOM 对象也提供了操作特性的 API：
 
-- `Element.hasAttribute(name)` – 判断某个特性是否操作
+- `Element.hasAttribute(name)` – 判断某个特性是否存在
 - `elem.getAttribute(name`) – 获取指定特性的值
 - `elem.setAttribute(name, value)` – 设置指定特性的值
 - `elem.removeAttribute(name)` – 移除指定特性
@@ -121,7 +121,7 @@ el.getAttribute('value')) === 'jjc' // 特性没有更新
 
 ## 4. 非标准特性
 
-非标准 HTML 特性并不会自动映射为 DOM 属性。当我们实用 `data-` 开头的特性时，会映射到 DOM 的 dataset 属性。中划线格式会变成驼峰格式：
+非标准 HTML 特性并不会自动映射为 DOM 属性。当我们使用 `data-` 开头的特性时，会映射到 DOM 的 dataset 属性。中划线格式会变成驼峰格式：
 
 ```js
 el.setAttribute('data-my-name', 'jjc');
@@ -133,7 +133,7 @@ el.dataset.myAge === '18'
 
 ## 自定义特性 VS 非规范特性
 
-HTMl 允许我们自定义标签，也可以扩展标签的特性，但是我们推荐使用已经进入 HTML5 规范的自定义特性 `data-*`。比如我们想为` div` 标签增加一个 `age` 特性，我们可以有 2 种选择：
+HTML 允许我们自定义标签，也可以扩展标签的特性，但是我们推荐使用已经进入 HTML5 规范的自定义特性 `data-*`。比如我们想为` div` 标签增加一个 `age` 特性，我们可以有 2 种选择：
 
 ```html
 <div age="18">justjavac</div>
