@@ -1,4 +1,4 @@
-# HTML attribute 和 DOM property
+# #15 HTML attribute 和 DOM property
 
 在大多数的文章中，attribute 一般被翻译为“特性”，property 被译为“属性”。
 
