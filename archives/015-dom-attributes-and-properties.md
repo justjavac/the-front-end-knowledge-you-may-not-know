@@ -20,7 +20,7 @@ HTML attribute | DOM property
 <input id="name" value="justjavac" />
 ```
 
-我们写了一个 `input` 标签，并给他定义了 2 个<abbr title="attribute">特性</abbr> (`id` 和 `value`)。当浏览器解析这段代码的时候，会把 html 源码解析为 DOM 对象，确切的说是解析为了 [`HTMLInputElement`](https://developer.mozilla.org/zh-CN/docs/Web/API/HTMLInputElement) 对象。`HTMLInputElement` 的继承关系是：
+我们写了一个 `input` 标签，并给他定义了 2 个<abbr title="attribute">特性</abbr> (`id` 和 `value`)。当浏览器解析这段代码的时候，会把 html 源码解析为 DOM 对象，确切的说是解析为 [`HTMLInputElement`](https://developer.mozilla.org/zh-CN/docs/Web/API/HTMLInputElement) 对象。`HTMLInputElement` 的继承关系是：
 
 ```
 HTMLInputElement
