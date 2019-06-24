@@ -8,7 +8,7 @@ HTML attribute | DOM property
 ------------ | -------------
 值永远是字符串或 `null` | 值可以是任意合法 js 类型
 大小写不敏感 | 大小写敏感
-不存在时: 如果是标准属性, 返回 `""`; 如果是非标准属性, 返回 `null` | 不存在是返回 `undefined`
+不存在时返回 `null` | 不存在时返回 `undefined`
 对于 `href`, 返回 html 设置的值 | 对于 `href` 返回解析后的完整 uri
 更新 `value`, 属性也更新 | 更新 `value`, 特性不更新
 
