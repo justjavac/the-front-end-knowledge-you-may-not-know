@@ -13,7 +13,7 @@
 
 > 当输入框在最底部的时候，弹起的虚拟键盘会把输入框挡住。
 
-于是我发给他一个 API：`Element.scrollIntoViewIfNeeded(opt_center)`，故名思意，就是在需要的时候将元素滚动到可视区域。
+于是我发给他一个 API：`Element.scrollIntoViewIfNeeded(opt_center)`，顾名思义，就是在需要的时候将元素滚动到可视区域。
 
 对于前端 API 来说，我们最关心的是它的浏览器兼容性：
 
