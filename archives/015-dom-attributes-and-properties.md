@@ -36,7 +36,7 @@ EventTarget
 Object
 ```
 
-通过查看文档会发现，`HTMLInputElement` 的原型上定义了很多<abbr title="property">属性</abbr>和方法，例如 `form`, `name`, `type`, `alt`, `checked`, `src`, `value` 等等。还有从 `HTMLElement` 继承来的 `id`, `title`, `clientTop` 等等。
+通过查看文档会发现，`HTMLInputElement` 的原型上定义了很多<abbr title="property">属性</abbr>和方法，例如 `form`, `name`, `type`, `alt`, `checked`, `src`, `value` 等等，还有从 `HTMLElement` 继承来的 `id`, `title`, `clientTop` 等等。
 
 如果仔细找找，就不难发现其中就有我们为 `input` 标签定义的<abbr title="attribute">特性</abbr>：`id` 和 `value`。**当浏览器解析网页时，将 HTML <abbr title="attribute">特性</abbr>映射为了 DOM <abbr title="property">属性</abbr>**。
 
