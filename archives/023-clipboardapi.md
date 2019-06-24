@@ -1,6 +1,6 @@
 # Async Clipboard API：异步剪贴板 API
 
-原文：[Unblocking Clipboard Access](https://developers.google.com/web/updates/2018/03/clipboardapi)
+原文：[Unblocking Clipboard Access](https://developers.google.com/web/updates/2018/03/clipboardapi)  
 作者：@developit
 
 --------------------
