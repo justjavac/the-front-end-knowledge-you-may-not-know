@@ -144,10 +144,11 @@ HTMl 允许我们自定义标签，也可以扩展标签的特性，但是我们
 
 ## 参考文献和资料
 
-- https://stackoverflow.com/questions/6003819/what-is-the-difference-between-properties-and-attributes-in-html
-- https://www.w3.org/TR/html50/forms.html#the-input-element
-- https://javascript.info/dom-attributes-and-properties
-- https://developer.mozilla.org/zh-CN/docs/Web/API/Element
+- [What is the difference between properties and attributes in HTML?](https://stackoverflow.com/questions/6003819/what-is-the-difference-between-properties-and-attributes-in-html)
+- [.prop() vs .attr()](https://stackoverflow.com/questions/5874652/prop-vs-attr)
+- [HTML5 - 28 October 2014](https://www.w3.org/TR/html50/forms.html#the-input-element)
+- [Attributes and properties](https://javascript.info/dom-attributes-and-properties)
+- [getAttribute() versus Element object properties?](https://stackoverflow.com/questions/10280250/getattribute-versus-element-object-properties?noredirect=1&lq=1)
 
 -----------
 
