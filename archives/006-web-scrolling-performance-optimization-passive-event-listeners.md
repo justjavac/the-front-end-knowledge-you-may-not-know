@@ -1,4 +1,4 @@
-# #6 `addEventListener` 的第三个参数，提升页面滚动性能
+# `addEventListener` 的第三个参数，提升页面滚动性能
 
 今年(2017)的 Google I/O 已经过去一段时间了，大部分人都关注了一些新产品的发布，比如 Allo 和 Duo、Android N、Daydream、Android Studio、Firebase……还有 PWA。
 

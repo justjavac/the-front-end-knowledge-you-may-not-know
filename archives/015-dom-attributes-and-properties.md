@@ -1,8 +1,10 @@
-# #15 HTML attribute 和 DOM property
+# HTML attribute 和 DOM property
 
 在大多数的文章中，attribute 一般被翻译为“特性”，property 被译为“属性”。
 
-## TLDR;
+## 结论
+
+把结论写在最前面，如果你全都懂，后面就不用看了。
 
 HTML attribute | DOM property
 ------------ | -------------

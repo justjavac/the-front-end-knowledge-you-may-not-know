@@ -1,4 +1,4 @@
-# #14 HTML DOM 级别以及一些小坑
+# HTML DOM 级别以及一些小坑
 
 > API (Web 或 XML 页面) = DOM + JavaScript(脚本语言)
 
