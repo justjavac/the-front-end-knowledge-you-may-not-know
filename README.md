@@ -6,16 +6,16 @@
 
 GitHub 提供了一些方便的功能：
 
-- **fork**：慎用。除非是你想参与这个项目，比如提交一篇文章、修改错别字、等，否则你没有必要 fork 这个项目，也不要把 fork 当作备份功能。
+- **fork**：慎用。当我写了新文章后，你 fork 的仓库并不会自动同步。所以除非是你想参与这个项目，比如提交一篇文章、修改错别字、等，否则你没有必要 fork 这个项目。
 
-- **star**：这个功能可以理解为收藏或点赞。如果你想收藏这个项目，以便将来某一天来学习，我劝你别这么做，相信我，“Read It Later === Read It Never”。另一方面，我的 star 已经够多了，所以除非是你确实觉得项目对你有帮助，否则你不需要点 star 按钮。
+- **star**：这个功能可以理解为收藏或点赞。如果你想收藏这个项目，以便将来某一天来学习，我劝你别这么做，相信我，`Read It Later === Read It Never`。另一方面，我的 star 已经够多了，所以除非是你确实觉得项目对你有帮助，否则你不需要点 star 按钮。
 
-- **watch**：推荐使用。点击 watch 旁边的下拉三角可以得到更多的 watch 选项，最有用的 2 个是：Releases only 和 Watching。
+- **watch**：推荐使用。点击 watch 旁边的下拉三角可以得到更多的 watch 选项，最有用的 2 个是：Releases only 和 Watching：
 
   - 选择 Watching，当本项目有任何动态时，你都会收到通知；
   - 选择 Releases only，只有发布新的 [Release 版本](https://github.com/justjavac/the-front-end-knowledge-you-may-not-know/releases)时你才会收到通知。
 
-  当有新文章时，我会不定期发布 Release 版本。但是如果你选择 Releases only 也会错过一些新开的 issues。
+  当有新文章时，我会不定期发布 Release 版本。
 
 - **sponsor**：GitHub 新上线的赞赏功能。如果我的帮助你找到了心仪的工作，或者让你升职加薪，可以请我喝杯咖啡。
 
@@ -27,6 +27,8 @@ GitHub 提供了一些方便的功能：
 2. 当发布了新的 [Release 版本](https://github.com/justjavac/the-front-end-knowledge-you-may-not-know/releases)后，你会收到提醒。每个版本会包含几篇文章的链接。
 3. 当阅读完文章后，在每篇文章的最下面都附有讨论这篇文章的 issue，如果你对这篇文章感兴趣，进入相应的 issue，点击右侧的 subscribe。
 4. 祝阅读愉快。
+
+**注意**：如果你选择 Releases only，则会错过一些新开的 issues。
 
 ## 目录
 
