@@ -17,7 +17,7 @@ GitHub 提供了一些方便的功能：
 
   当有新文章时，我会不定期发布 Release 版本。
 
-- **sponsor**：GitHub 新上线的赞赏功能。如果我的帮助你找到了心仪的工作，或者让你升职加薪，可以请我喝杯咖啡。
+- **sponsor**：GitHub 新上线的赞赏功能。如果我的项目帮助你找到了心仪的工作，或者让你升职加薪，可以[请我喝杯咖啡](https://github.com/justjavac/buy-me-a-coffee)。
 
 - **subscribe**：这个功能是 issues 的，在每个 issue 的右面都有这个按钮。点击后可以关注此 issue 的动态。
 
