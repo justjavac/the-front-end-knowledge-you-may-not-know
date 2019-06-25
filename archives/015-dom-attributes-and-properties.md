@@ -11,7 +11,7 @@ HTML attribute | DOM property
 值永远是字符串或 `null` | 值可以是任意合法 js 类型
 大小写不敏感 | 大小写敏感
 不存在时返回 `null` | 不存在时返回 `undefined`
-对于 `href`, 返回 html 设置的值 | 对于 `href` 返回解析后的完整 uri
+对于 `href`, 返回 html 设置的值 | 对于 `href` 返回解析后的完整 url
 更新 `value`, 属性也更新 | 更新 `value`, 特性不更新
 
 ## 概述
@@ -22,7 +22,7 @@ HTML attribute | DOM property
 <input id="name" value="justjavac" />
 ```
 
-我们写了一个 `input` 标签，并给他定义了 2 个<abbr title="attribute">特性</abbr> (`id` 和 `value`)。当浏览器解析这段代码的时候，会把 html 源码解析为 DOM 对象，确切的说是解析为了 [`HTMLInputElement`](https://developer.mozilla.org/zh-CN/docs/Web/API/HTMLInputElement) 对象。`HTMLInputElement` 的继承关系是：
+我们写了一个 `input` 标签，并给他定义了 2 个<abbr title="attribute">特性</abbr> (`id` 和 `value`)。当浏览器解析这段代码的时候，会把 html 源码解析为 DOM 对象，确切的说是解析为 [`HTMLInputElement`](https://developer.mozilla.org/zh-CN/docs/Web/API/HTMLInputElement) 对象。`HTMLInputElement` 的继承关系是：
 
 ```
 HTMLInputElement
@@ -38,7 +38,7 @@ EventTarget
 Object
 ```
 
-通过查看文档会发现，`HTMLInputElement` 的原型上定义了很多<abbr title="property">属性</abbr>和方法，例如 `form`, `name`, `type`, `alt`, `checked`, `src`, `value` 等等。还有从 `HTMLElement` 继承来的 `id`, `title`, `clientTop` 等等。
+通过查看文档会发现，`HTMLInputElement` 的原型上定义了很多<abbr title="property">属性</abbr>和方法，例如 `form`, `name`, `type`, `alt`, `checked`, `src`, `value` 等等，还有从 `HTMLElement` 继承来的 `id`, `title`, `clientTop` 等等。
 
 如果仔细找找，就不难发现其中就有我们为 `input` 标签定义的<abbr title="attribute">特性</abbr>：`id` 和 `value`。**当浏览器解析网页时，将 HTML <abbr title="attribute">特性</abbr>映射为了 DOM <abbr title="property">属性</abbr>**。
 
@@ -75,7 +75,7 @@ el.foo === undefined
 
 好在 DOM 对象也提供了操作特性的 API：
 
-- `Element.hasAttribute(name)` – 判断某个特性是否操作
+- `Element.hasAttribute(name)` – 判断某个特性是否存在
 - `elem.getAttribute(name`) – 获取指定特性的值
 - `elem.setAttribute(name, value)` – 设置指定特性的值
 - `elem.removeAttribute(name)` – 移除指定特性
@@ -123,7 +123,7 @@ el.getAttribute('value')) === 'jjc' // 特性没有更新
 
 ## 4. 非标准特性
 
-非标准 HTML 特性并不会自动映射为 DOM 属性。当我们实用 `data-` 开头的特性时，会映射到 DOM 的 dataset 属性。中划线格式会变成驼峰格式：
+非标准 HTML 特性并不会自动映射为 DOM 属性。当我们使用 `data-` 开头的特性时，会映射到 DOM 的 dataset 属性。中划线格式会变成驼峰格式：
 
 ```js
 el.setAttribute('data-my-name', 'jjc');
@@ -135,7 +135,7 @@ el.dataset.myAge === '18'
 
 ## 自定义特性 VS 非规范特性
 
-HTMl 允许我们自定义标签，也可以扩展标签的特性，但是我们推荐使用已经进入 HTML5 规范的自定义特性 `data-*`。比如我们想为` div` 标签增加一个 `age` 特性，我们可以有 2 种选择：
+HTML 允许我们自定义标签，也可以扩展标签的特性，但是我们推荐使用已经进入 HTML5 规范的自定义特性 `data-*`。比如我们想为` div` 标签增加一个 `age` 特性，我们可以有 2 种选择：
 
 ```html
 <div age="18">justjavac</div>
